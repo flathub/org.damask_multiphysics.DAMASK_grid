@@ -55,7 +55,7 @@ modules:
         PETSC_DIR: "/app"
     post-install:
       - install -Dm644 org.damask_multiphysics.DAMASK_grid.metainfo.xml -t /app/share/metainfo/
-      - install -Dm644 org.damask_multiphysics.DAMASK_grid.png -t /app/share/icons/hicolor/512x512/apps/
+      - install -Dm644 org.damask_multiphysics.DAMASK_grid.svg -t /app/share/icons/hicolor/scalable/apps/
     sources:
       - type: archive
         url: https://damask-multiphysics.org/download/damask-3.0.0.tar.xz
@@ -63,4 +63,4 @@ modules:
       - type: file
         path: org.damask_multiphysics.DAMASK_grid.metainfo.xml
       - type: file
-        path: org.damask_multiphysics.DAMASK_grid.png
+        path: org.damask_multiphysics.DAMASK_grid.svg
